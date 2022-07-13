@@ -1,0 +1,211 @@
+/* -----------------------------projet----------------------------------------------------------------------------- */
+.projets {
+    margin: 25px 25px 25px 25px;}
+
+    .mySlides1, .mySlides2 {
+        display: none}
+    .mySlides1 img, .mySlides2 img {
+        vertical-align: middle;
+        width: 500px;
+        height: 400px;
+    }
+    .info{
+        text-align: center;
+        color:green;
+
+    }
+    
+    .show-container {
+      max-width: 500px;
+      position: relative;
+      margin: auto;
+    }
+    
+ 
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+  
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover, .next:hover {
+      background-color: #070707;
+      color: white;
+    }
+  /* ----------------footer----------------------------------------------------- */
+  .ligne {
+    margin-top: 50px;
+    height: 2px;
+    width: 100%;
+    background-color:var(--clr-t-);
+  }
+  
+  footer {
+    margin: 25px 25px 25px 25px;
+    margin-bottom: 0;
+  }
+  
+  #contact {
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .fa-envelope,
+  .fa-github-square {
+    color:var(--clr-t-);
+  }
+
+  /*--------responsive----------------------------- */
+ @media screen and (max-width: 900px) {
+    body {
+     height:70vh;
+    }
+    .titre{
+      font-size: 2rem; 
+      line-height: 2.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    h2{
+      font-size: 1.5rem;
+    }
+    /* --accueil---- ----------------------------*/
+    .accueil{
+      height: 40vh;
+    }
+    .logos{
+      position: relative;
+      display: grid;
+
+    }
+    .logo{
+      width: 100px; 
+      height: 50px;
+     }
+   
+    /* -------------apropos de moi-------------- */
+    .aproposdemoi {
+      display: initial;
+      
+    }
+    .menu{
+   width: 97%;
+  }
+
+    /* ---------------------comp------------------------ */
+    #comp{
+      display: initial;
+    }
+    #comp article:active{
+      transform: rotateY(180deg);
+    }
+  
+   }
+   @media screen and (max-width: 500px) {
+    .titre{
+      font-size: 1rem; 
+    }
+  
+    /* --accueil---- */
+    .accueil{
+      margin: 0 10px 15px 10px;
+      height: 65vh;
+    }
+    
+  
+    /* -------------apropos de moi-------------- */
+    .aproposdemoi{
+      margin: 15px 10px 15px 10px;
+    }
+    .container {
+      max-width: 390px;
+      margin-left:0;
+      height: 350px;
+    }
+      
+  .slide-img {
+        width: 300px;
+        height: 350px;}
+  
+    .menu{
+   width:30%;
+   bottom: -50px;
+   z-index:7;
+  }
+  .menu label{
+    margin:0;
+  }
+    /* ---------------------comp-------------------- */
+    #comp{
+      display: initial;
+    }
+  
+    .competence article>div{
+      width: 350px; 
+    
+    }
+    /* --------------exp--------------------- */
+    #timeline {
+      margin-top: 0px;
+  }
+  
+  #timeline::after {
+      display: none;
+  }
+    #timeline .event .left {
+      display: initial;
+      top: 0;
+      font-size: 10px;
+  
+  }
+  
+  #timeline .event .right {
+      margin-left: 0px;
+  }
+  
+  #timeline .event .right::before {
+      display: none;
+  }
+  
+  #timeline .event .right  {
+      display: block;
+  }
+  
+  #timeline .event h3 {
+      padding-bottom: 0px;
+  }
+  
+  #timeline .event {
+      padding-bottom: 15px;
+  } 
+    /*-------------------------projets---------------------*/
+    .mySlides1 img, .mySlides2 img {
+        width: 300px;
+        height: 250px;
+    }
+    .info{
+        color:var(--clr-qr);
+    }
+    .slideshow-container {
+      max-width:300px;
+    }
+}
