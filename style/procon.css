@@ -127,18 +127,18 @@
   
     /* --accueil---- */
     .accueil{
-      margin: 0 10px 15px 10px;
+      margin: 0;
       height: 65vh;
     }
     
   
     /* -------------apropos de moi-------------- */
     .aproposdemoi{
-      margin: 15px 10px 15px 10px;
+      margin: 15px 0px 15px 0px;
     }
     .container {
       max-width: 390px;
-      margin-left:0;
+      margin-left:30px;
       height: 350px;
     }
       
@@ -160,7 +160,7 @@
     }
   
     .competence article>div{
-      width: 350px; 
+      width: 340px; 
     
     }
     /* --------------exp--------------------- */

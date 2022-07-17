@@ -140,7 +140,7 @@ h4 {
  }
 /*----------------------------------- partie d'accueil-------------------------------------------------*/
 .accueil {
-  margin: 0 10px 15px 20px;
+  margin: 0 10px 50px 10px;
   background-image: url(../image/zen3.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -156,6 +156,7 @@ h4 {
   grid-template-rows: 1fr 1fr 1fr;
 }
 .logos span{
+  justify-content: center;
   opacity: 0;
 }
 #titre {
@@ -200,7 +201,7 @@ opacity: 0;
 /* --------------------------------partie personnelle---------------------------------------------------*/
 .aproposdemoi {
   width: 100%; 
-  margin: 30px 15px 30px 15px;
+  margin: 30px 15px 80px 15px;
   display: grid;
   flex-wrap: wrap;
   grid-template-columns: 50% 50%;
